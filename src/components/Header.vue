@@ -52,6 +52,16 @@ export default {
 
 @import "../style/variables.scss";
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-elements-margin{
+    margin:auto;
+    width:90%;
+}
 
 header{
     display:flex;
@@ -66,7 +76,7 @@ ul{
 }
 
 li{
-    padding:10px 10px 30px 10px;
+    padding:40px 10px 70px 10px;
     list-style-type: none;
     border-bottom:3px solid transparent;
     &:hover{
