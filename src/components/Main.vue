@@ -1,6 +1,6 @@
 <template>
     <div>
-       <p>ciao</p>
+       <h1>MAIN</h1>
     </div>
 </template>
 
@@ -13,5 +13,6 @@ export default {
 <style lang="scss" scoped>
 
 @import "../style/variables.scss";
+
 
 </style>
