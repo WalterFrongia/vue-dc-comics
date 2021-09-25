@@ -47,6 +47,12 @@ export default {
 
 @import "../style/variables.scss";
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 ul{
     list-style-type: none;
     display: flex;
@@ -80,7 +86,7 @@ a{
     background-color:rgb(46, 131, 241);
     display:flex;
     justify-content: space-between;
-    padding:70px 0;
+    padding:60px 0;
 
 }
 
