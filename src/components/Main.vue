@@ -17,18 +17,12 @@ export default {
 @import "../style/variables.scss";
 @import "../style/general.scss";
 
-//MARGINE E RESET
-// *{
-//     margin:0;
-//     padding:0;
-//     box-sizing: border-box;
-// }
-
+//MARGIN
 #container-elements-margin{
     margin:auto;
     width:90%;
 }
-//FINE MARGINE E RESET
+//FINE MARGIN
 
 
 h1{

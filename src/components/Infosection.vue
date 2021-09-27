@@ -53,7 +53,7 @@ export default {
     margin:auto;
     width:90%;
 }
-//FINE MARGINE E RESET
+//FINE MARGIN
 
 ul{
     list-style-type: none;

@@ -36,7 +36,7 @@ export default {
     margin:auto;
     width:90%;
 }
-//FINE MARGIN E RESET
+//FINE MARGIN
 
 #mini-footer-section{
     background-color: rgb(61, 60, 60);

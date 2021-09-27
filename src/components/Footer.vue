@@ -130,12 +130,11 @@ export default {
 @import "../style/general.scss";
 
 //MARGIN
-
 #container-elements-margin{
     margin:auto;
     width:90%;
 }
-//FINE MARGIN E RESET
+//FINE MARGIN
 
 #footer-section{
     background-image: url(../assets/images/footer-bg.jpg);
