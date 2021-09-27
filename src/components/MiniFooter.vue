@@ -29,14 +29,9 @@ export default {
 <style lang="scss" scoped>
 
 @import "../style/variables.scss";
+@import "../style/general.scss";
 
-//MARGIN E RESET
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-
+//MARGIN 
 #container-elements-margin{
     margin:auto;
     width:90%;
@@ -52,7 +47,7 @@ export default {
 button{
     padding:20px 30px;
     background-color: transparent;
-    border:3px solid rgb(40, 88, 190);
+    border:3px solid $primaryColor;
     color:white;
 }
 
@@ -67,7 +62,7 @@ button{
     align-items: center;
     h3{
         padding-right: 10px;
-        color:rgb(40, 88, 190);
+        color:$primaryColor;
     }
     img{
         padding:0 5px;

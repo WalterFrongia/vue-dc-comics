@@ -15,13 +15,14 @@ export default {
 <style lang="scss" scoped>
 
 @import "../style/variables.scss";
+@import "../style/general.scss";
 
 //MARGINE E RESET
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
+// *{
+//     margin:0;
+//     padding:0;
+//     box-sizing: border-box;
+// }
 
 #container-elements-margin{
     margin:auto;

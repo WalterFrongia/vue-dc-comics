@@ -6,36 +6,7 @@
             </a>
             <nav class="header-navigation">
                 <ul class="navigation-list">
-                    <li>
-                        <a href="#">CHARACTERS</a>
-                    </li>
-                    <li>
-                        <a href="#">COMICS</a>
-                    </li>
-                    <li>
-                        <a href="#">MOVIES</a>
-                    </li>
-                    <li>
-                        <a href="#">TV</a>
-                    </li>
-                    <li>
-                        <a href="#">GAMES</a>
-                    </li>
-                    <li>
-                        <a href="#">COLLECTIBLES</a>
-                    </li>
-                    <li>
-                        <a href="#">VIDEOS</a>
-                    </li>
-                    <li>
-                        <a href="#">FANS</a>
-                    </li>
-                    <li>
-                        <a href="#">NEWS</a>
-                    </li>
-                    <li>
-                        <a href="#">SHOP</a>
-                    </li>
+                    <li v-for="link in navBarLinks" :key="link.name">{{link.name}}</li>
                 </ul>
             </nav>
         </header>
@@ -44,6 +15,43 @@
 
 <script>
 export default {
+    data(){
+        return{
+            navBarLinks:[
+                {
+                    name:"CHARACTERS"
+                },
+                {
+                    name:"COMICS"
+                },
+                {
+                    name:"MOVIES"
+                },
+                {
+                    name:"TV"
+                },
+                {
+                    name:"GAMES"
+                },
+                {
+                    name:"COLLECTIBLES"
+                },
+                {
+                    name:"VIDEOS"
+                },
+                {
+                    name:"FANS"
+                },
+                {
+                    name:"NEWS"
+                },
+                {
+                    name:"SHOP"
+                },
+            ],
+
+        }
+    }
 
 }
 </script>
@@ -51,13 +59,13 @@ export default {
 <style lang="scss" scoped>
 
 @import "../style/variables.scss";
-
+@import "../style/general.scss";
 //MARGINE E RESET
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
+// *{
+//     margin:0;
+//     padding:0;
+//     box-sizing: border-box;
+// }
 
 #container-elements-margin{
     margin:auto;
