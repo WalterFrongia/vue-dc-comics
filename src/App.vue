@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header/>
-    <Main/>
+    <Content/>
     <Infosection/>
     <Footer/>
     <MiniFooter/>
@@ -10,7 +10,7 @@
 
 <script>
 import Header from './components/Header.vue'
-import Main from './components/Main.vue'
+import Content from './components/Content.vue'
 import Infosection from './components/Infosection.vue'
 import Footer from './components/Footer.vue'
 import MiniFooter from './components/MiniFooter.vue'
@@ -20,7 +20,7 @@ export default {
   name: 'App',
   components: {
     Header,
-    Main,
+    Content,
     Infosection,
     Footer,
     MiniFooter
@@ -33,11 +33,7 @@ export default {
 @import "./style/variables.scss";
 @import "./style/general.scss";
 
-// *{
-//   margin:0;
-//   padding:0;
-//   box-sizing: border-box;
-// }
+
 #app {
 }
 </style>
