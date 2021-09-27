@@ -1,5 +1,5 @@
 <template>
-    <div class="footer-section">
+    <div id="footer-section">
         <div id="container-elements-margin">
             <div id="container-lists-footer">
                 
@@ -141,7 +141,7 @@ export default {
 }
 //FINE MARGIN E RESET
 
-.footer-section{
+#footer-section{
     background-image: url(../assets/images/footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
