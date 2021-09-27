@@ -1,7 +1,7 @@
 <template>
     <div id="content-section">
        <div id="container-elements-margin">
-           <h1> Content goes here </h1>
+           <h1></h1>
        </div>
     </div>
 </template>
@@ -32,7 +32,9 @@ h1{
 
 #content-section{
     padding:60px 0;
-    background-color:rgb(53, 51, 51);
+    background-image: url(../assets/images/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 </style>
