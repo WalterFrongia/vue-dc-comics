@@ -1,6 +1,6 @@
 <template>
     <div id="content-section">
-       <div class="container-elements-margin">
+       <div id="container-elements-margin">
            <h1> Content goes here </h1>
        </div>
     </div>
@@ -16,20 +16,24 @@ export default {
 
 @import "../style/variables.scss";
 
+//MARGINE E RESET
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
+#container-elements-margin{
+    margin:auto;
+    width:90%;
+}
+//FINE MARGINE E RESET
+
+
 h1{
     color:white;
 }
 
-.container-elements-margin{
-    margin:auto;
-    width:90%;
-}
 
 #content-section{
     padding:60px 0;
