@@ -24,11 +24,9 @@ export default {
 }
 //FINE MARGIN
 
-
 h1{
     color:white;
 }
-
 
 #content-section{
     padding:60px 0;

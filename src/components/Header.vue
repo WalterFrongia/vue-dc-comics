@@ -6,7 +6,7 @@
             </a>
             <nav class="header-navigation">
                 <ul class="navigation-list">
-                    <li v-for="link in navBarLinks" :key="link.name">{{link.name}}</li>
+                    <li v-for="link in navBarLinks" :key="link.name"><a href="">{{link.name}}</a></li>
                 </ul>
             </nav>
         </header>
