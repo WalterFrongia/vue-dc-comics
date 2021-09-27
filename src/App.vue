@@ -4,6 +4,7 @@
     <Main/>
     <Infosection/>
     <Footer/>
+    <MiniFooter/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Infosection from './components/Infosection.vue'
 import Footer from './components/Footer.vue'
+import MiniFooter from './components/MiniFooter.vue'
 
 
 export default {
@@ -20,7 +22,8 @@ export default {
     Header,
     Main,
     Infosection,
-    Footer
+    Footer,
+    MiniFooter
   }
 }
 </script>
