@@ -17,7 +17,8 @@ export default {
 
 .card-element{
     // height: 150px;
-    background-color: rgb(92, 92, 202);
+    // background-color: rgb(92, 92, 202);
+    text-align: center;
     margin:5px;
 
     flex-basis: calc( 100% / 6 - 12px);
